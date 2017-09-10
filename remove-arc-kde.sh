@@ -17,7 +17,7 @@ cat <<- EOF
 
 
   $gh_desc
-  https://github.com/PapirusDevelopmentTeam/$gh_repo
+  https://github.com/giogziro95/$gh_repo
 
 
 EOF
