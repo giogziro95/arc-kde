@@ -1,5 +1,7 @@
+### Note: This is a fork of the [original collection of Arc themes for KDE Plasma](https://github.com/PapirusDevelopmentTeam/arc-kde) because transparent themes have been removed in the newer version. For the newer version, check out the original.
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/arc-kde/master/preview.png" alt="Preview Arc-Dark KDE"/>
+  <img src="https://raw.githubusercontent.com/giogziro95/arc-kde/master/preview.png" alt="Preview Arc-Dark KDE"/>
   <sup><sub>Screenshot Details: Engine: <a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum">Kavntum</a> | Kvantum Theme: Arc Dark Transparent | Aurorae decoration: Arc Dark Transparent | Color Scheme: Arc Dark | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus Dark</a> | Dock: <a href="https://github.com/psifidotos/Latte-Dock">Latte Dock</a></sub></sup>
 </p>
 
@@ -22,18 +24,6 @@ In this repository you'll find:
 
 ## Installation
 
-### Ubuntu and derivatives
-
-You can install arc-kde from our official [PPA](https://launchpad.net/~papirus/+archive/ubuntu/arc-kde):
-
-```
-sudo add-apt-repository ppa:papirus/arc-kde
-sudo apt-get update
-sudo apt-get install arc-kde
-```
-
-or download .deb packages from [here](https://launchpad.net/~papirus/+archive/ubuntu/arc-kde/+packages).
-
 ### Arc KDE Installer
 
 Use the scripts to install the latest version directly from this repo (independently on your distro):
@@ -43,32 +33,19 @@ Use the scripts to install the latest version directly from this repo (independe
 #### ROOT directory
 
 ```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/arc-kde/master/install-arc-kde-root.sh | sh
+wget -qO- https://raw.githubusercontent.com/giogziro95/arc-kde/master/install-arc-kde-root.sh | sh
 ```
 #### HOME directory
 
 ```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/arc-kde/master/install-arc-kde-home.sh | sh
+wget -qO- https://raw.githubusercontent.com/giogziro95/arc-kde/master/install-arc-kde-home.sh | sh
 ```
 
 #### Remove
 
 ```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/arc-kde/master/remove-arc-kde.sh | sh
+wget -qO- https://raw.githubusercontent.com/giogziro95/arc-kde/master/remove-arc-kde.sh | sh
 ```
-
-### Unofficial packages
-
-Packages in this section are not part of the official repositories. If you have a trouble or a question please contact with package maintainer.
-
-| **Distro** | **Maintainer**    | **Package** |
-|:-----------|:------------------|:------------|
-| Arch Linux | Marcus Behrendt   | [arc-kde-git](https://aur.archlinux.org/packages/arc-kde-git/) <sup>AUR</sup> |
-| Arch Linux | Josip Ponjavic    | [arc-kde-git](https://software.opensuse.org/download.html?project=home:metakcahura&package=arc-kde-git) <sup>OBS [[link](https://build.opensuse.org/package/show/home:metakcahura/arc-kde-git)]</sub> |
-| Manjaro    | Nikola Yanev      | [arc-kde](http://download.tuxfamily.org/gericom/README.html) |
-| openSUSE   | Konstantin Voinov | [arc-kde](https://software.opensuse.org/download.html?project=home:kill_it&package=arc-kde) <sup>OBS [[link](https://build.opensuse.org/package/show/home:kill_it/arc-kde)]</sub> |
-
-**NOTE:** If you maintainer and want be in the list please create an issue or send a pull request.
 
 ## Recommendations
 
@@ -88,20 +65,13 @@ Packages in this section are not part of the official repositories. If you have 
 
 ## Extras
 
-- [Firefox Theme](https://github.com/PapirusDevelopmentTeam/arc-kde/tree/master/extra/firefox) — patch for [Arc Dark Firefox Theme](https://github.com/horst3180/arc-firefox-theme#arc-dark-firefox)
-- [Telegram Themes](https://github.com/PapirusDevelopmentTeam/arc-kde/tree/master/extra/telegram) - Arc KDE & Arc Dark KDE themes for [Telegram](https://desktop.telegram.org)
+- [Firefox Theme](https://github.com/giogziro95/arc-kde/tree/master/extra/firefox) — patch for [Arc Dark Firefox Theme](https://github.com/horst3180/arc-firefox-theme#arc-dark-firefox)
+- [Telegram Themes](https://github.com/giogziro95/arc-kde/tree/master/extra/telegram) — Arc KDE & Arc Dark KDE themes for [Telegram](https://desktop.telegram.org)
 - [Nylas Skin](https://github.com/varlesh/Nylas-Arc-Dark-Theme) — Arc Dark theme for mail client [Nylas N1](https://github.com/nylas/nylas-mail)
 - [VLC Skin](https://github.com/varlesh/VLC-Arc-Dark) — Arc Dark skin for [VLC](http://www.videolan.org/vlc/)
-- [Eclipse Theme](https://github.com/PapirusDevelopmentTeam/arc-kde/tree/master/extra/eclipse) ­— Arc Dark Theme for [Eclipse IDE](https://eclipse.org/ide/)
+- [Eclipse Theme](https://github.com/giogziro95/arc-kde/tree/master/extra/eclipse) ­— Arc Dark Theme for [Eclipse IDE](https://eclipse.org/ide/)
 - [KDE-gaps](http://www.simonizor.gq/kde-gaps) — a modification of Arc-Dark that removes the title, window buttons, and makes the window decorations completely transparent
-## Donate
-
-If you like my project, you can donate at:
-
-<span class="paypal"><a href="https://www.paypal.me/varlesh" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
-
-<span class="Yandex.Money"><a href="http://yasobe.ru/na/varlesh#form_submit" title="Donate to this project using Yandex.Money"><img src="https://money.yandex.ru/img/ym_logo.gif" alt="Yandex.Money donate button" /></a></span>
 
 ## License
 
-GNU GPL v3
+[GNU GPL v3](https://github.com/giogziro95/arc-kde/blob/master/LICENSE)
