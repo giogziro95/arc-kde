@@ -22,6 +22,10 @@ In this repository you'll find:
 
 **NOTE:** Plasma theme Arc Color now supports KDE Color Schemes with [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
+## Before you begin
+
+If you had the theme installed and configured before and want to use the previous configuration, make sure that you have the backups for the configuration files of each theme you've configured. The configuration files have _.kvconfig_ extension and are located inside theme folders, under _~/.config/Kvantum/_. This is important because if anything goes wrong, you won't lose your configurations and restoring them will be a matter of seconds.
+
 ## Installation
 
 ### Arc KDE Installer
